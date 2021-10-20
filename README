@@ -1,0 +1,10 @@
+# pirateDocker
+docker build . --no-cache -t pirate:beta --force-rm
+docker run --name hunt1 -it pirate:beta  /bin/bash 
+docker start -ai hunt1
+
+cd ~ && source .profile
+subfinder -d domain.com -all | httpx | nuclei -t nuclei-templates/ | notify ;
+
+# config
+don't forget to fill the config.yaml with the API keys 

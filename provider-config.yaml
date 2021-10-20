@@ -1,0 +1,8 @@
+#please remove this comment and add you own web hook key. BTW you can add slack ... 
+
+discord:
+  - id: "BugBot"
+    discord_channel: "bugs"
+    discord_username: "BugBot"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/809848989540810823/J12ZLxcwf_TffJMrKAlLKIegWKqeZwJNvCLGTcrG9gP_LeZIpGfpOSFz6uRTWiJYONNx"
